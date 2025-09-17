@@ -1,5 +1,6 @@
 import pickle, glob
 from enum import Enum
+from tabnanny import check
 
 with open("projectiles.pkl", 'rb') as f:
     projectiles = pickle.load(f)
@@ -24,6 +25,9 @@ with open("spells.pkl", 'rb') as f:
             case "BarbLog":
                 spells[i]["Name"] = "BarbarianBarrel"
 
+with open("characters.pkl", 'rb') as f:
+    characters = pickle.load(f)
+
 with open("troops.pkl", 'rb') as f:
     troops = pickle.load(f)
 
@@ -32,28 +36,32 @@ with open("troops.pkl", 'rb') as f:
         "ManaCost": 3,
         "SummonNumber": 1,
         "SummonRadius": 0,
-        "SummonWidth": 0
+        "SummonWidth": 0,
+        "Radius": 600
     }
     heal_spirit_dict = {
         "Name": "HealSpirit",
         "ManaCost": 1,
         "SummonNumber": 1,
         "SummonRadius": 0,
-        "SummonWidth": 0
+        "SummonWidth": 0,
+        "Radius": 400
     }
     rune_giant_dict = {
         "Name": "RuneGiant",
         "ManaCost": 4,
         "SummonNumber": 1,
         "SummonRadius": 0,
-        "SummonWidth": 0
+        "SummonWidth": 0,
+        "Radius": 700
     }
     ice_golem_dict = {
         "Name": "IceGolem",
         "ManaCost": 2,
         "SummonNumber": 1,
         "SummonRadius": 0,
-        "SummonWidth": 0
+        "SummonWidth": 0,
+        "Radius": 550
     }
 
     troops.append(furnace_dict)
@@ -109,9 +117,9 @@ class CardType(Enum):
 
 final_dict_array = [{}]
 
-for filename in glob.glob("templates_borderless/*.png"):
+for filename in glob.glob("../templates_borderless/*.png"):
     if filename.endswith("Evolution_crop.png"): continue
-    card_name = filename.split("Card")[0][21:]
+    card_name = filename.split("Card")[0][24:]
     exists = False
     tmp_dict = {}
     for dictionary in buildings:
@@ -126,9 +134,14 @@ for filename in glob.glob("templates_borderless/*.png"):
             tmp_dict = dictionary
             tmp_dict["Type"] = CardType.spell
             tmp_dict["Name"] = card_name
+            check_radius = (tmp_dict["Radius"] == 0)
             for projectile_dictionary in projectiles:
-                if projectile_dictionary["Name"] == tmp_dict["projectile"]:
+                if projectile_dictionary["Name"] == tmp_dict["Projectile"]:
                     tmp_dict["Speed"] = projectile_dictionary["Speed"]
+                    if check_radius:
+                        tmp_dict["Radius"] = projectile_dictionary["Radius"]
+            print(tmp_dict["Name"])
+            print(tmp_dict["Radius"])
 
     for dictionary in troops:
         if dictionary["Name"].lower() == card_name.lower():
@@ -136,6 +149,14 @@ for filename in glob.glob("templates_borderless/*.png"):
             tmp_dict = dictionary
             tmp_dict["Type"] = CardType.troop
             tmp_dict["Name"] = card_name
+            try: character_spawned = dictionary["SummonCharacter"]
+            except: print("ERROR: " + card_name)
+            else:
+                print(character_spawned)
+                for character_dictionary in characters:
+                    if character_dictionary["Name"] == character_spawned:
+                        print("Good")
+                        tmp_dict["Size"] = character_dictionary["CollisionRadius"]
 
     if not exists:
         print(f"Missing entry for {card_name}")

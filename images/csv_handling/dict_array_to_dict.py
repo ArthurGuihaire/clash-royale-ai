@@ -1,4 +1,10 @@
+from enum import Enum
 import pickle
+
+class CardType(Enum):
+    building = 0
+    spell = 1
+    troop = 2
 
 actual_dictionary = {}
 

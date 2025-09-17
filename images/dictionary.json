@@ -1,0 +1,913 @@
+{
+  "TheLog": {
+    "ManaCost": 2,
+    "Projectile": 0,
+    "Radius": 0,
+    "Type": "spell"
+  },
+  "Earthquake": {
+    "ManaCost": 3,
+    "Projectile": 0,
+    "Radius": 3500,
+    "Type": "spell"
+  },
+  "LavaHound": {
+    "ManaCost": 7,
+    "SummonNumber": 0,
+    "SummonRadius": 0,
+    "SummonWidth": 0,
+    "SummonCharacter": 0,
+    "Type": "troop"
+  },
+  "SkeletonBarrel": {
+    "ManaCost": 3,
+    "SummonNumber": 1,
+    "SummonRadius": 0,
+    "SummonWidth": 0,
+    "SummonCharacter": 0,
+    "Type": "troop"
+  },
+  "Executioner": {
+    "ManaCost": 5,
+    "SummonNumber": 1,
+    "SummonRadius": 0,
+    "SummonWidth": 0,
+    "SummonCharacter": 0,
+    "Type": "troop"
+  },
+  "SuperKnight": {
+    "ManaCost": 4,
+    "SummonNumber": 1,
+    "SummonRadius": 0,
+    "SummonWidth": 0,
+    "SummonCharacter": 0,
+    "Type": "troop"
+  },
+  "Zappies": {
+    "ManaCost": 4,
+    "SummonNumber": 3,
+    "SummonRadius": 1000,
+    "SummonWidth": 0,
+    "SummonCharacter": 0,
+    "Type": "troop"
+  },
+  "WallBreakers": {
+    "ManaCost": 2,
+    "SummonNumber": 2,
+    "SummonRadius": 750,
+    "SummonWidth": 0,
+    "SummonCharacter": 0,
+    "Type": "troop"
+  },
+  "Archers": {
+    "ManaCost": 3,
+    "SummonNumber": 2,
+    "SummonRadius": 0,
+    "SummonWidth": 0,
+    "SummonCharacter": 0,
+    "Type": "troop"
+  },
+  "InfernoTower": {
+    "ManaCost": 5,
+    "Type": "building",
+    "Radius": 3
+  },
+  "Void": {
+    "ManaCost": 3,
+    "Projectile": 0,
+    "Radius": 2500,
+    "Type": "spell"
+  },
+  "Lumberjack": {
+    "ManaCost": 4,
+    "SummonNumber": 1,
+    "SummonRadius": 0,
+    "SummonWidth": 0,
+    "SummonCharacter": 0,
+    "Type": "troop"
+  },
+  "CannonCart": {
+    "ManaCost": 5,
+    "SummonNumber": 1,
+    "SummonRadius": 0,
+    "SummonWidth": 0,
+    "SummonCharacter": 0,
+    "Type": "troop"
+  },
+  "IceWizard": {
+    "ManaCost": 3,
+    "SummonNumber": 0,
+    "SummonRadius": 0,
+    "SummonWidth": 0,
+    "SummonCharacter": 0,
+    "Type": "troop"
+  },
+  "Witch": {
+    "ManaCost": 5,
+    "SummonNumber": 0,
+    "SummonRadius": 0,
+    "SummonWidth": 0,
+    "SummonCharacter": 0,
+    "Type": "troop"
+  },
+  "BattleRam": {
+    "ManaCost": 4,
+    "SummonNumber": 1,
+    "SummonRadius": 0,
+    "SummonWidth": 0,
+    "SummonCharacter": 0,
+    "Type": "troop"
+  },
+  "Monk": {
+    "ManaCost": 5,
+    "SummonNumber": 0,
+    "SummonRadius": 0,
+    "SummonWidth": 0,
+    "SummonCharacter": 0,
+    "Type": "troop"
+  },
+  "EliteBarbarians": {
+    "ManaCost": 6,
+    "SummonNumber": 2,
+    "SummonRadius": 700,
+    "SummonWidth": 0,
+    "SummonCharacter": 0,
+    "Type": "troop"
+  },
+  "MotherWitch": {
+    "ManaCost": 4,
+    "SummonNumber": 0,
+    "SummonRadius": 0,
+    "SummonWidth": 0,
+    "SummonCharacter": 0,
+    "Type": "troop"
+  },
+  "Valkyrie": {
+    "ManaCost": 4,
+    "SummonNumber": 0,
+    "SummonRadius": 0,
+    "SummonWidth": 0,
+    "SummonCharacter": 0,
+    "Type": "troop"
+  },
+  "GoblinBarrel": {
+    "ManaCost": 3,
+    "Projectile": 0,
+    "Radius": 0,
+    "Type": "spell"
+  },
+  "GoldenKnight": {
+    "ManaCost": 4,
+    "SummonNumber": 0,
+    "SummonRadius": 0,
+    "SummonWidth": 0,
+    "SummonCharacter": 0,
+    "Type": "troop"
+  },
+  "Furnace": {
+    "ManaCost": 3,
+    "SummonNumber": 1,
+    "SummonRadius": 0,
+    "SummonWidth": 0,
+    "Radius": 600,
+    "Type": "troop"
+  },
+  "ElectroGiant": {
+    "ManaCost": 7,
+    "SummonNumber": 1,
+    "SummonRadius": 0,
+    "SummonWidth": 0,
+    "SummonCharacter": 0,
+    "Type": "troop"
+  },
+  "SpearGoblins": {
+    "ManaCost": 2,
+    "SummonNumber": 3,
+    "SummonRadius": 0,
+    "SummonWidth": 0,
+    "SummonCharacter": 0,
+    "Type": "troop"
+  },
+  "Tombstone": {
+    "ManaCost": 3,
+    "Type": "building",
+    "Radius": 3
+  },
+  "SuspiciousBush": {
+    "ManaCost": 2,
+    "SummonNumber": 1,
+    "SummonRadius": 0,
+    "SummonWidth": 0,
+    "SummonCharacter": 0,
+    "Type": "troop"
+  },
+  "RoyalGiant": {
+    "ManaCost": 6,
+    "SummonNumber": 0,
+    "SummonRadius": 0,
+    "SummonWidth": 0,
+    "SummonCharacter": 0,
+    "Type": "troop"
+  },
+  "SuperWitch": {
+    "ManaCost": 6,
+    "SummonNumber": 1,
+    "SummonRadius": 0,
+    "SummonWidth": 0,
+    "SummonCharacter": 0,
+    "Type": "troop"
+  },
+  "ThreeMusketeers": {
+    "ManaCost": 9,
+    "SummonNumber": 3,
+    "SummonRadius": 0,
+    "SummonWidth": 0,
+    "SummonCharacter": 0,
+    "Type": "troop"
+  },
+  "RoyalRecruits": {
+    "ManaCost": 7,
+    "SummonNumber": 6,
+    "SummonRadius": 500,
+    "SummonWidth": 14000,
+    "SummonCharacter": 0,
+    "Type": "troop"
+  },
+  "ElixirCollector": {
+    "ManaCost": 6,
+    "Type": "building",
+    "Radius": 3
+  },
+  "SkeletonDragons": {
+    "ManaCost": 4,
+    "SummonNumber": 2,
+    "SummonRadius": 1500,
+    "SummonWidth": 0,
+    "SummonCharacter": 0,
+    "Type": "troop"
+  },
+  "Miner": {
+    "ManaCost": 3,
+    "SummonNumber": 0,
+    "SummonRadius": 0,
+    "SummonWidth": 0,
+    "SummonCharacter": 0,
+    "Type": "troop"
+  },
+  "RoyalHogs": {
+    "ManaCost": 5,
+    "SummonNumber": 4,
+    "SummonRadius": 1,
+    "SummonWidth": 3500,
+    "SummonCharacter": 0,
+    "Type": "troop"
+  },
+  "Mirror": {
+    "ManaCost": 1,
+    "Projectile": 0,
+    "Radius": 0,
+    "Type": "spell"
+  },
+  "MegaMinion": {
+    "ManaCost": 3,
+    "SummonNumber": 1,
+    "SummonRadius": 0,
+    "SummonWidth": 0,
+    "SummonCharacter": 0,
+    "Type": "troop"
+  },
+  "GiantSnowball": {
+    "ManaCost": 2,
+    "Projectile": 0,
+    "Radius": 0,
+    "Type": "spell"
+  },
+  "Clone": {
+    "ManaCost": 3,
+    "Projectile": 0,
+    "Radius": 3000,
+    "Type": "spell"
+  },
+  "Hunter": {
+    "ManaCost": 4,
+    "SummonNumber": 1,
+    "SummonRadius": 0,
+    "SummonWidth": 0,
+    "SummonCharacter": 0,
+    "Type": "troop"
+  },
+  "HogRider": {
+    "ManaCost": 4,
+    "SummonNumber": 1,
+    "SummonRadius": 0,
+    "SummonWidth": 0,
+    "SummonCharacter": 0,
+    "Type": "troop"
+  },
+  "SuperLavaHound": {
+    "ManaCost": 8,
+    "SummonNumber": 0,
+    "SummonRadius": 0,
+    "SummonWidth": 0,
+    "SummonCharacter": 0,
+    "Type": "troop"
+  },
+  "Prince": {
+    "ManaCost": 5,
+    "SummonNumber": 0,
+    "SummonRadius": 0,
+    "SummonWidth": 0,
+    "SummonCharacter": 0,
+    "Type": "troop"
+  },
+  "BarbarianLauncher": {
+    "ManaCost": 5,
+    "Type": "building",
+    "Radius": 0
+  },
+  "MightyMiner": {
+    "ManaCost": 4,
+    "SummonNumber": 0,
+    "SummonRadius": 0,
+    "SummonWidth": 0,
+    "SummonCharacter": 0,
+    "Type": "troop"
+  },
+  "Zap": {
+    "ManaCost": 2,
+    "Projectile": 0,
+    "Radius": 2500,
+    "Type": "spell"
+  },
+  "Bats": {
+    "ManaCost": 2,
+    "SummonNumber": 5,
+    "SummonRadius": 750,
+    "SummonWidth": 0,
+    "SummonCharacter": 0,
+    "Type": "troop"
+  },
+  "Goblinstein": {
+    "ManaCost": 5,
+    "SummonNumber": 1,
+    "SummonRadius": 3500,
+    "SummonWidth": -1000,
+    "SummonCharacter": 0,
+    "Type": "troop"
+  },
+  "Heal": {
+    "ManaCost": 1,
+    "Projectile": 0,
+    "Radius": 0,
+    "Type": "spell"
+  },
+  "BarbarianBarrel": {
+    "ManaCost": 2,
+    "Projectile": 0,
+    "Radius": 0,
+    "Type": "spell"
+  },
+  "Fisherman": {
+    "ManaCost": 3,
+    "SummonNumber": 1,
+    "SummonRadius": 0,
+    "SummonWidth": 0,
+    "SummonCharacter": 0,
+    "Type": "troop"
+  },
+  "ElectroDragon": {
+    "ManaCost": 5,
+    "SummonNumber": 1,
+    "SummonRadius": 0,
+    "SummonWidth": 0,
+    "SummonCharacter": 0,
+    "Type": "troop"
+  },
+  "PEKKA": {
+    "ManaCost": 7,
+    "SummonNumber": 0,
+    "SummonRadius": 0,
+    "SummonWidth": 0,
+    "SummonCharacter": 0,
+    "Type": "troop"
+  },
+  "Arrows": {
+    "ManaCost": 3,
+    "Projectile": 0,
+    "Radius": 3500,
+    "Type": "spell"
+  },
+  "RoyalDelivery": {
+    "ManaCost": 3,
+    "Projectile": 0,
+    "Radius": 3000,
+    "Type": "spell"
+  },
+  "BabyDragon": {
+    "ManaCost": 4,
+    "SummonNumber": 0,
+    "SummonRadius": 0,
+    "SummonWidth": 0,
+    "SummonCharacter": 0,
+    "Type": "troop"
+  },
+  "NightWitch": {
+    "ManaCost": 4,
+    "SummonNumber": 1,
+    "SummonRadius": 0,
+    "SummonWidth": 0,
+    "SummonCharacter": 0,
+    "Type": "troop"
+  },
+  "RoyalGhost": {
+    "ManaCost": 3,
+    "SummonNumber": 1,
+    "SummonRadius": 0,
+    "SummonWidth": 0,
+    "SummonCharacter": 0,
+    "Type": "troop"
+  },
+  "GoblinCurse": {
+    "ManaCost": 2,
+    "Projectile": 0,
+    "Radius": 3000,
+    "Type": "spell"
+  },
+  "Rascals": {
+    "ManaCost": 5,
+    "SummonNumber": 1,
+    "SummonRadius": 3000,
+    "SummonWidth": 0,
+    "SummonCharacter": 0,
+    "Type": "troop"
+  },
+  "GoblinCage": {
+    "ManaCost": 4,
+    "Type": "building",
+    "Radius": 3
+  },
+  "Giant": {
+    "ManaCost": 5,
+    "SummonNumber": 0,
+    "SummonRadius": 0,
+    "SummonWidth": 0,
+    "SummonCharacter": 0,
+    "Type": "troop"
+  },
+  "IceSpirit": {
+    "ManaCost": 1,
+    "SummonNumber": 1,
+    "SummonRadius": 0,
+    "SummonWidth": 0,
+    "SummonCharacter": 0,
+    "Type": "troop"
+  },
+  "GoblinMachine": {
+    "ManaCost": 5,
+    "SummonNumber": 1,
+    "SummonRadius": 0,
+    "SummonWidth": 0,
+    "SummonCharacter": 0,
+    "Type": "troop"
+  },
+  "Mortar": {
+    "ManaCost": 4,
+    "Type": "building",
+    "Radius": 3
+  },
+  "SkeletonKing": {
+    "ManaCost": 4,
+    "SummonNumber": 0,
+    "SummonRadius": 0,
+    "SummonWidth": 0,
+    "SummonCharacter": 0,
+    "Type": "troop"
+  },
+  "DarkPrince": {
+    "ManaCost": 4,
+    "SummonNumber": 0,
+    "SummonRadius": 0,
+    "SummonWidth": 0,
+    "SummonCharacter": 0,
+    "Type": "troop"
+  },
+  "Fireball": {
+    "ManaCost": 4,
+    "Projectile": 0,
+    "Radius": 0,
+    "Type": "spell"
+  },
+  "GoblinHut": {
+    "ManaCost": 4,
+    "Type": "building",
+    "Radius": 3
+  },
+  "SkeletonArmy": {
+    "ManaCost": 3,
+    "SummonNumber": 15,
+    "SummonRadius": 0,
+    "SummonWidth": 0,
+    "SummonCharacter": 0,
+    "Type": "troop"
+  },
+  "ElectroWizard": {
+    "ManaCost": 4,
+    "SummonNumber": 0,
+    "SummonRadius": 0,
+    "SummonWidth": 0,
+    "SummonCharacter": 0,
+    "Type": "troop"
+  },
+  "SuperMiniPEKKA": {
+    "ManaCost": 5,
+    "SummonNumber": 1,
+    "SummonRadius": 0,
+    "SummonWidth": 0,
+    "SummonCharacter": 0,
+    "Type": "troop"
+  },
+  "Freeze": {
+    "ManaCost": 4,
+    "Projectile": 0,
+    "Radius": 0,
+    "Type": "spell"
+  },
+  "Berserker": {
+    "ManaCost": 2,
+    "SummonNumber": 1,
+    "SummonRadius": 0,
+    "SummonWidth": 0,
+    "SummonCharacter": 0,
+    "Type": "troop"
+  },
+  "Phoenix": {
+    "ManaCost": 4,
+    "SummonNumber": 1,
+    "SummonRadius": 0,
+    "SummonWidth": 0,
+    "SummonCharacter": 0,
+    "Type": "troop"
+  },
+  "Princess": {
+    "ManaCost": 3,
+    "SummonNumber": 0,
+    "SummonRadius": 0,
+    "SummonWidth": 0,
+    "SummonCharacter": 0,
+    "Type": "troop"
+  },
+  "Tesla": {
+    "ManaCost": 4,
+    "Type": "building",
+    "Radius": 2
+  },
+  "ElectroSpirit": {
+    "ManaCost": 1,
+    "SummonNumber": 1,
+    "SummonRadius": 0,
+    "SummonWidth": 0,
+    "SummonCharacter": 0,
+    "Type": "troop"
+  },
+  "ArcherQueen": {
+    "ManaCost": 5,
+    "SummonNumber": 1,
+    "SummonRadius": 0,
+    "SummonWidth": 0,
+    "SummonCharacter": 0,
+    "Type": "troop"
+  },
+  "Cannon": {
+    "ManaCost": 3,
+    "Type": "building",
+    "Radius": 3
+  },
+  "BattleHealer": {
+    "ManaCost": 4,
+    "SummonNumber": 1,
+    "SummonRadius": 0,
+    "SummonWidth": 0,
+    "SummonCharacter": 0,
+    "Type": "troop"
+  },
+  "ElixirGolem": {
+    "ManaCost": 3,
+    "SummonNumber": 1,
+    "SummonRadius": 0,
+    "SummonWidth": 0,
+    "SummonCharacter": 0,
+    "Type": "troop"
+  },
+  "Golem": {
+    "ManaCost": 8,
+    "SummonNumber": 0,
+    "SummonRadius": 0,
+    "SummonWidth": 0,
+    "SummonCharacter": 0,
+    "Type": "troop"
+  },
+  "MegaKnight": {
+    "ManaCost": 7,
+    "SummonNumber": 1,
+    "SummonRadius": 0,
+    "SummonWidth": 0,
+    "SummonCharacter": 0,
+    "Type": "troop"
+  },
+  "GoblinGang": {
+    "ManaCost": 3,
+    "SummonNumber": 3,
+    "SummonRadius": 1000,
+    "SummonWidth": 0,
+    "SummonCharacter": 0,
+    "Type": "troop"
+  },
+  "Graveyard": {
+    "ManaCost": 5,
+    "Projectile": 0,
+    "Radius": 4000,
+    "Type": "spell"
+  },
+  "Musketeer": {
+    "ManaCost": 4,
+    "SummonNumber": 0,
+    "SummonRadius": 0,
+    "SummonWidth": 0,
+    "SummonCharacter": 0,
+    "Type": "troop"
+  },
+  "Minions": {
+    "ManaCost": 3,
+    "SummonNumber": 3,
+    "SummonRadius": 0,
+    "SummonWidth": 0,
+    "SummonCharacter": 0,
+    "Type": "troop"
+  },
+  "Rocket": {
+    "ManaCost": 6,
+    "Projectile": 0,
+    "Radius": 0,
+    "Type": "spell"
+  },
+  "Balloon": {
+    "ManaCost": 5,
+    "SummonNumber": 0,
+    "SummonRadius": 0,
+    "SummonWidth": 0,
+    "SummonCharacter": 0,
+    "Type": "troop"
+  },
+  "Goblins": {
+    "ManaCost": 2,
+    "SummonNumber": 4,
+    "SummonRadius": 700,
+    "SummonWidth": 0,
+    "SummonCharacter": 0,
+    "Type": "troop"
+  },
+  "InfernoDragon": {
+    "ManaCost": 4,
+    "SummonNumber": 1,
+    "SummonRadius": 0,
+    "SummonWidth": 0,
+    "SummonCharacter": 0,
+    "Type": "troop"
+  },
+  "Firecracker": {
+    "ManaCost": 3,
+    "SummonNumber": 1,
+    "SummonRadius": 0,
+    "SummonWidth": 0,
+    "SummonCharacter": 0,
+    "Type": "troop"
+  },
+  "MiniPEKKA": {
+    "ManaCost": 4,
+    "SummonNumber": 0,
+    "SummonRadius": 0,
+    "SummonWidth": 0,
+    "SummonCharacter": 0,
+    "Type": "troop"
+  },
+  "Guards": {
+    "ManaCost": 3,
+    "SummonNumber": 3,
+    "SummonRadius": 0,
+    "SummonWidth": 0,
+    "SummonCharacter": 0,
+    "Type": "troop"
+  },
+  "Tornado": {
+    "ManaCost": 3,
+    "Projectile": 0,
+    "Radius": 5500,
+    "Type": "spell"
+  },
+  "BarbarianHut": {
+    "ManaCost": 6,
+    "Type": "building",
+    "Radius": 3
+  },
+  "HealSpirit": {
+    "ManaCost": 1,
+    "SummonNumber": 1,
+    "SummonRadius": 0,
+    "SummonWidth": 0,
+    "Radius": 400,
+    "Type": "troop"
+  },
+  "X-Bow": {
+    "ManaCost": 6,
+    "Type": "building",
+    "Radius": 3
+  },
+  "Lightning": {
+    "ManaCost": 6,
+    "Projectile": 0,
+    "Radius": 3500,
+    "Type": "spell"
+  },
+  "Rage": {
+    "ManaCost": 2,
+    "Projectile": 0,
+    "Radius": 3000,
+    "Type": "spell"
+  },
+  "BossBandit": {
+    "ManaCost": 6,
+    "SummonNumber": 1,
+    "SummonRadius": 0,
+    "SummonWidth": 0,
+    "SummonCharacter": 0,
+    "Type": "troop"
+  },
+  "BombTower": {
+    "ManaCost": 4,
+    "Type": "building",
+    "Radius": 3
+  },
+  "GiantSkeleton": {
+    "ManaCost": 6,
+    "SummonNumber": 1,
+    "SummonRadius": 0,
+    "SummonWidth": 0,
+    "SummonCharacter": 0,
+    "Type": "troop"
+  },
+  "FlyingMachine": {
+    "ManaCost": 4,
+    "SummonNumber": 1,
+    "SummonRadius": 0,
+    "SummonWidth": 0,
+    "SummonCharacter": 0,
+    "Type": "troop"
+  },
+  "Bomber": {
+    "ManaCost": 2,
+    "SummonNumber": 0,
+    "SummonRadius": 0,
+    "SummonWidth": 0,
+    "SummonCharacter": 0,
+    "Type": "troop"
+  },
+  "DartGoblin": {
+    "ManaCost": 3,
+    "SummonNumber": 1,
+    "SummonRadius": 0,
+    "SummonWidth": 0,
+    "SummonCharacter": 0,
+    "Type": "troop"
+  },
+  "RamRider": {
+    "ManaCost": 5,
+    "SummonNumber": 0,
+    "SummonRadius": 0,
+    "SummonWidth": 0,
+    "SummonCharacter": 0,
+    "Type": "troop"
+  },
+  "RuneGiant": {
+    "ManaCost": 4,
+    "SummonNumber": 1,
+    "SummonRadius": 0,
+    "SummonWidth": 0,
+    "Radius": 700,
+    "Type": "troop"
+  },
+  "GoblinDemolisher": {
+    "ManaCost": 4,
+    "SummonNumber": 1,
+    "SummonRadius": 0,
+    "SummonWidth": 0,
+    "SummonCharacter": 0,
+    "Type": "troop"
+  },
+  "GoblinGiant": {
+    "ManaCost": 6,
+    "SummonNumber": 1,
+    "SummonRadius": 0,
+    "SummonWidth": 0,
+    "SummonCharacter": 0,
+    "Type": "troop"
+  },
+  "Bowler": {
+    "ManaCost": 5,
+    "SummonNumber": 0,
+    "SummonRadius": 0,
+    "SummonWidth": 0,
+    "SummonCharacter": 0,
+    "Type": "troop"
+  },
+  "Bandit": {
+    "ManaCost": 3,
+    "SummonNumber": 1,
+    "SummonRadius": 0,
+    "SummonWidth": 0,
+    "SummonCharacter": 0,
+    "Type": "troop"
+  },
+  "IceGolem": {
+    "ManaCost": 2,
+    "SummonNumber": 1,
+    "SummonRadius": 0,
+    "SummonWidth": 0,
+    "Radius": 550,
+    "Type": "troop"
+  },
+  "Knight": {
+    "ManaCost": 3,
+    "SummonNumber": 0,
+    "SummonRadius": 0,
+    "SummonWidth": 0,
+    "SummonCharacter": 0,
+    "Type": "troop"
+  },
+  "GoblinDrill": {
+    "ManaCost": 4,
+    "Type": "building",
+    "Radius": 2
+  },
+  "Poison": {
+    "ManaCost": 4,
+    "Projectile": 0,
+    "Radius": 3500,
+    "Type": "spell"
+  },
+  "Skeletons": {
+    "ManaCost": 1,
+    "SummonNumber": 3,
+    "SummonRadius": 700,
+    "SummonWidth": 0,
+    "SummonCharacter": 0,
+    "Type": "troop"
+  },
+  "MinionHorde": {
+    "ManaCost": 5,
+    "SummonNumber": 6,
+    "SummonRadius": 600,
+    "SummonWidth": 0,
+    "SummonCharacter": 0,
+    "Type": "troop"
+  },
+  "Wizard": {
+    "ManaCost": 5,
+    "SummonNumber": 0,
+    "SummonRadius": 0,
+    "SummonWidth": 0,
+    "SummonCharacter": 0,
+    "Type": "troop"
+  },
+  "FireSpirit": {
+    "ManaCost": 1,
+    "SummonNumber": 1,
+    "SummonRadius": 0,
+    "SummonWidth": 0,
+    "SummonCharacter": 0,
+    "Type": "troop"
+  },
+  "Sparky": {
+    "ManaCost": 6,
+    "SummonNumber": 0,
+    "SummonRadius": 0,
+    "SummonWidth": 0,
+    "SummonCharacter": 0,
+    "Type": "troop"
+  },
+  "MagicArcher": {
+    "ManaCost": 4,
+    "SummonNumber": 1,
+    "SummonRadius": 0,
+    "SummonWidth": 0,
+    "SummonCharacter": 0,
+    "Type": "troop"
+  },
+  "Barbarians": {
+    "ManaCost": 5,
+    "SummonNumber": 5,
+    "SummonRadius": 700,
+    "SummonWidth": 0,
+    "SummonCharacter": 0,
+    "Type": "troop"
+  }
+}
