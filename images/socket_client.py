@@ -18,7 +18,7 @@ async def recieve_image(client_socket):
     '''with open("/dev/shm/image.png", 'wb') as f:
         f.write(received)'''
 
-HOST = '10.0.0.49'
+HOST = '192.168.4.88'
 PORT = 2361
 ping_packet = " ".encode()
 

@@ -1,15 +1,15 @@
 import socket, struct, time, pickle, subprocess, threading
 
-def send_image(conn):
+def send_image(connection):
     with open("/dev/shm/screen.png", 'rb') as f:
         img_data = f.read()
 
-    conn.sendall(struct.pack('>Q', len(img_data)))
-    conn.sendall(img_data)
+    connection.sendall(struct.pack('>Q', len(img_data)))
+    connection.sendall(img_data)
 
 HOST = '0.0.0.0'
 PORT = 2361
-ping_packet = " ".encode()
+PING_PACKET = " ".encode()
 
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 server.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
@@ -21,7 +21,7 @@ conn, addr = server.accept()
 with conn:
     for i in range(20):
         conn.recv(1)
-        conn.sendall(ping_packet)
+        conn.sendall(PING_PACKET)
 
     conn.sendall(pickle.dumps(time.time()))
 
@@ -30,8 +30,8 @@ with conn:
         conn.recv(1)
         time.sleep(1)
         subprocess.run(["adb", "shell", "input", "tap", "366", "109"])
-        conn.sendall(ping_packet)
-        
+        conn.sendall(PING_PACKET)
+
         while True:
             time_to_send = pickle.loads(conn.recv(21))
             if not time_to_send: break

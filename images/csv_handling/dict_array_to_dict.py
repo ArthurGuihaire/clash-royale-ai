@@ -8,8 +8,8 @@ class CardType(Enum):
 
 actual_dictionary = {}
 
-with open("cards_dict_array.pkl", 'rb') as data_file:
-    dict_array = pickle.load(data_file)
+with open("cards_dict_array.pkl", 'rb') as dictionary_file:
+    dict_array = pickle.load(dictionary_file)
 
 for dictionary in dict_array:
     if dictionary == {}: continue

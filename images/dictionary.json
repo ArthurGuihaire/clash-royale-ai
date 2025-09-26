@@ -765,7 +765,7 @@
   },
   "Bomber": {
     "ManaCost": 2,
-    "SummonNumber": 0,
+    "SummonNumber": 1,
     "SummonRadius": 0,
     "SummonWidth": 0,
     "SummonCharacter": 0,
@@ -781,7 +781,7 @@
   },
   "RamRider": {
     "ManaCost": 5,
-    "SummonNumber": 0,
+    "SummonNumber": 1,
     "SummonRadius": 0,
     "SummonWidth": 0,
     "SummonCharacter": 0,
@@ -813,7 +813,7 @@
   },
   "Bowler": {
     "ManaCost": 5,
-    "SummonNumber": 0,
+    "SummonNumber": 1,
     "SummonRadius": 0,
     "SummonWidth": 0,
     "SummonCharacter": 0,

@@ -1,0 +1,92 @@
+Temporary Chat
+You said:
+Trying to get syntax linting and intellisense to work on Code - OSS, can you guide me? I installed python extension and python debugger extension, both by ms-python, but not seeing anything different, I tried restarting vscode too
+ChatGPT said:
+
+Got it 👍 — let’s walk through how to get Python syntax linting and IntelliSense working properly in Code - OSS (open-source VS Code build).
+
+The Python extension from ms-python usually provides both, but a couple of extra steps are often needed in Code - OSS:
+1. Verify Extension Activation
+
+    Open the Extensions view (Ctrl+Shift+X).
+
+    Ensure both Python and Python Debugger are installed and enabled.
+
+    Check if the Language Server is running:
+
+        Open the Output panel (Ctrl+Shift+U).
+
+        In the dropdown, select Python.
+
+        You should see logs about Pylance or Jedi.
+
+If you don’t see anything, the language server might not be active.
+2. Install Pylance (for IntelliSense)
+
+    The ms-python extension uses Pylance for IntelliSense.
+
+    In Code - OSS, sometimes Pylance isn’t bundled. Install it separately:
+
+        Go to Extensions (Ctrl+Shift+X).
+
+        Search for Pylance (ms-python.vscode-pylance).
+
+        Install it.
+
+    Restart Code - OSS.
+
+    In your settings (Ctrl+,), make sure:
+
+    "python.languageServer": "Pylance"
+
+3. Enable Linting
+
+    Install a linter (e.g. pylint):
+
+pip install pylint
+
+Then in Code - OSS settings (Ctrl+,), add:
+
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.linting.flake8Enabled": false
+
+    Reload the window (Ctrl+Shift+P → "Reload Window").
+
+4. Check Python Interpreter
+
+Make sure Code - OSS is using the correct Python:
+
+    Press Ctrl+Shift+P → "Python: Select Interpreter".
+
+    Choose the Python environment/virtualenv you’re using.
+
+    This ensures IntelliSense and linting run against the right libs.
+
+5. Test
+
+    Create a simple Python file:
+
+    import os
+    import numpy  # if installed
+
+    print("Hello"
+
+    You should see:
+
+        Autocomplete suggestions (from Pylance).
+
+        Squiggly red underline on the missing ).
+
+⚠️ Note: Some Code - OSS builds (especially on Linux distros) don’t ship with Microsoft’s proprietary extensions by default, so if you installed from the distro repo, you may need to fetch .vsix files manually from the Visual Studio Marketplace
+or Open VSX Registry
+
+.
+
+👉 Can you tell me:
+
+    Which OS/distro you’re on?
+
+    Did you install extensions from Marketplace or Open VSX?
+
+That will help me narrow down why Pylance/IntelliSense isn’t showing up.

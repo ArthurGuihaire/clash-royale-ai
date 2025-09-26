@@ -7,14 +7,14 @@ with open("projectiles.pkl", 'rb') as f:
 
 with open("buildings.pkl", 'rb') as f:
     buildings = pickle.load(f)
-    for i in range(len(buildings)):
+    for i in enumerate(buildings):
         match buildings[i]["Name"]:
             case "Xbow":
                 buildings[i]["Name"] = "X-Bow"
 
 with open("spells.pkl", 'rb') as f:
     spells = pickle.load(f)
-    for i in range(len(spells)):
+    for i in enumerate(spells):
         match spells[i]["Name"]:
             case "Log":
                 spells[i]["Name"] = "TheLog"
@@ -69,7 +69,7 @@ with open("troops.pkl", 'rb') as f:
     troops.append(rune_giant_dict)
     troops.append(ice_golem_dict)
 
-    for i in range(len(troops)):
+    for i in enumerate(troops):
         match troops[i]["Name"]:
             case "SkeletonBalloon":
                 troops[i]["Name"] = "SkeletonBarrel"
